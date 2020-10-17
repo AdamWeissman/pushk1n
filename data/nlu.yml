@@ -7,25 +7,16 @@ nlu:
     - hello
     - hi
     - hello there
-    - good morning
-    - good evening
     - moin
     - hey there
     - let's go
     - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
 
 - intent: goodbye
   examples: |
-    - good afternoon
     - cu
-    - good by
     - cee you later
-    - good night
     - bye
-    - goodbye
     - have a nice day
     - see you around
     - bye bye
@@ -58,6 +49,7 @@ nlu:
     - \bperfect\b
     - \bgood\b
     - \bawesome\b
+    - slerble
 
 
 - intent: mood_unhappy
@@ -66,8 +58,6 @@ nlu:
     - don't feel very well
     - \bsad\b
     - unhappy
-    - not good
-    - not very good
 
 
 - intent: bot_challenge
